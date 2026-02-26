@@ -1,0 +1,9 @@
+lead_source,total_quotes,won_quotes,win_rate
+Inbound,2,2,1.0
+Outbound,1,0,0.0
+country,revenue
+Germany,420.0
+UK,550.0
+month,revenue,rolling_2m
+2025-01,550.0,550.0
+2025-02,420.0,970.0

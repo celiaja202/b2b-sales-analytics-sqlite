@@ -7,10 +7,12 @@ Synthetic (non-confidential) example project demonstrating:
 - SQL analytics (JOINs, aggregations, window functions)
 - Sales & pricing KPI analysis
 
-## How to Run
+## How to Recreate the Database
+
+Run the following commands:
 
 sqlite3 sales_analytics.db < schema.sql
 sqlite3 sales_analytics.db < seed_data.sql
-sqlite3 sales_analytics.db < queries.sql
+sqlite3 -header -csv sales_analytics.db < queries.sql > query_outputs.csv
 
 This project illustrates analytical capabilities aligned with Business Analytics / Management programs.
